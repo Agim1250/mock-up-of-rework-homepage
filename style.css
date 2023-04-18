@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.sbw{
+  justify-content: space-between;
+}
+.s_around{
+  justify-content: space-around;
+}
+.navigation{
+  width: 90%;
+  margin: auto;
+}
+.navbar{
+  width: 80%;
+}
+.navigation a{
+  text-decoration: none;
+  margin: 0px 15px;
+  color: black;
+}
+nav{
+  box-shadow: 0px 5px 200px 0px whitesmoke;
+}
+.top{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+#change{
+  text-decoration: underline;
+  color: #4a95d0;
+}
+.top2 button{
+  background-color: #ffbc0d;
+  height: 36px;
+  border: none;
+  border-radius: 3px;
+  padding: 0px 10px;
+}
