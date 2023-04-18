@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  height: 1500px;
+}
+.navigation{
+  position: fixed;
+  width: 98%;
+  margin: auto;
+  height: 60px;
+  background-color: white;
+  padding-top: 10px;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+.sbw{
+  justify-content: space-between;
+}
+.logo{
+  width: 94px;
+  margin-left: 20px;
+}
+.logo img{
+  width: 100%;
+}
+.navigation a{
+  margin-left: 25px;
+  text-decoration: none;
+  color: #00004a;
+  font-size: 16px;
+}
+.btn1{
+  background-color: white;
+  color: #0000ff;
+  border: 1px solid #0000ff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-right: 8px;
+}
