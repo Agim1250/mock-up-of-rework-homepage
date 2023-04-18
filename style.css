@@ -7,11 +7,13 @@ body{
 }
 .navigation{
   position: fixed;
-  width: 98%;
+  width: 100%;
   margin: auto;
   height: 60px;
+  box-shadow: 0px 0px 5px slategray;
   background-color: white;
   padding-top: 10px;
+  z-index: 1;
 }
 .flex{
   display: flex;
@@ -40,4 +42,88 @@ body{
   border-radius: 4px;
   padding: 10px 20px;
   margin-right: 8px;
+}
+.row1{
+  padding-top: 90px;
+  width: 95%;
+  margin: auto;
+}
+.row1-sec2{
+  width: 80%;
+  background-image: url(./Images/img1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  position: relative;
+  /* padding-left: 300px; */
+  margin-left: 270px;
+  
+}
+.row1-sec1{
+  width: 30%;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  top: 20;
+  /* bottom: 100px; */
+  z-index: 1;
+  text-align: center;
+  padding-left: 12px;
+  border-radius: 4px;
+  font: inherit;
+  vertical-align: baseline;
+  display: block;
+}
+.row1 h1{
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 40px;
+  font-weight: 600;
+  /* font: inherit;
+  vertical-align: baseline; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+  'Helvetica Neue', sans-serif;
+  text-align: left;
+  margin-left: 11px;
+}
+.row1 p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  color: #00004a;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+  'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  margin-left: 11px;
+}
+.field-group{
+  width: 300px;
+  position: relative;
+  padding-top: 15px;
+}
+.input-field{
+  width: 100%;
+  background: transparent;
+  color: white;
+  padding: 10px 20px;
+  border: 0.5px solid #00004a;
+  border-radius: 5px;
+  margin-left: 11px;
+  margin-bottom: 22px;
+}
+.input-label{
+  /* display: block; */
+  position: absolute;
+  top: 0px;
+  left: 21px;
+  background: white;
+  padding: 5px;
+}
+.btn2{
+  background-color: #0000ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 20px 160px;
+  margin-right: 34px;
 }
