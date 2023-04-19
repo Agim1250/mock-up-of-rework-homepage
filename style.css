@@ -169,6 +169,10 @@ body{
   border-radius: 3px;
   margin-right: 10px;
   padding: 30px 30px;
+  cursor: pointer;
+}
+.imgbox:hover{
+  scale: 1.1;
 }
 .row2-sec h6{
   font-size: 16px;
